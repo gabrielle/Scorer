@@ -41,7 +41,6 @@ class PlayerCard extends React.Component {
         }
     };
 
-
     render() {
         const backgroundColor = this.props.playerColor;
         const {won} = this.state;
